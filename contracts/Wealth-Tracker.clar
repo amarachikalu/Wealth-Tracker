@@ -142,7 +142,7 @@
                     {
                         amount: amount,
                         category: category,
-                        timestamp: block-height
+                        timestamp: burn-block-height
                     }
                 )
 
@@ -191,7 +191,7 @@
                 {
                     amount: amount,
                     channel: channel,
-                    timestamp: block-height
+                    timestamp: burn-block-height
                 }
             )
 
@@ -252,3 +252,4 @@
         (ok "Financial plan reset successful")
     )
 )
+
